@@ -1,0 +1,25 @@
+{
+    "name": "com.familyplanning.jessicajoybonzo",
+    "displayName": "FamilyPlanning",
+    "version": "1.0.0",
+    "description": "An educational mobile application about Family Planning.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Jessica Joy Bonzo",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^7.1.4",
+        "cordova-browser": "^5.0.4",
+        "cordova-plugin-whitelist": "^1.3.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android"
+        ]
+    }
+}

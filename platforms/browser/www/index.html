@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+
+   <title>Guide for Family Planning</title>
+   <link rel="stylesheet" href="css/framework7.min.css">
+   <link rel="stylesheet" href="css/icons.css">
+   <link rel="stylesheet" href="css/app.css">
+   <link rel="stylesheet" href="dist/css/swiper.min.css">
+
+  <!-- <script src="js/jquery-3.3.1.min.js"></script> -->
+   <script src="js/calendar/jquery.min.js"></script>
+   <script src="js/calendar/jquery.once.js"></script>
+   <script src="js/calendar/jquery.flexSlider-min.js"></script>  
+
+</head>
+   <body class="color-theme-blue">
+      <div id="app">
+         <div class="statusbar"></div>
+         <div class="panel panel-left panel-cover">
+            <div class="page color-theme-blue">
+              <div class="page-content">
+                  <div class="block-title">Kategorya</div>
+                  <div class="list links-list">
+                     <ul>
+                        <li>
+                           <a  href="/discussion/" class="panel-close">
+                              <div class="item-title">Mga Babasahin</div>
+                              <i class="material-icons" style="color:#500380;">book</i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="/contraceptive/" class="panel-close">
+                              <div class="item-title">Videos</div>
+                              <i class="material-icons" style="color:#500380;">ondemand_video</i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="/infographics/" class="panel-close">
+                              <div class="item-title">Gallery</div>
+                              <i class="material-icons" style="color:#500380;">image</i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="/assessment/" class="panel-close">
+                              <div class="item-title">Assessment</div>
+                              <i class="material-icons" style="color:#500380;">lightbulb_outline</i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="/period-tracker/" class="panel-close">
+                              <div class="item-title">Period Tracker</div>
+                              <i class="material-icons" style="color:#500380;">today</i>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="block">
+                     <a href="/about-app/" class="panel-close">About the App</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="view view-main view-init ios-edges" data-url="/">
+            <div class="page">
+               <div class="navbar">
+                  <div class="navbar-inner">
+                     <div class="left">
+                        <a href="#" class="link icon-only panel-open" data-panel="left">
+                           <i class="icon f7-icons ios-only">menu</i>
+                           <i class="icon material-icons md-only">menu</i>
+                        </a>
+                     </div>
+                     <div class="title sliding">Guide for Family Planning</div>
+                     <div class="right">
+                        <a class="link icon-only searchbar-enable" data-searchbar=".searchbar-components">
+                           <i class="icon f7-icons ios-only">search_strong</i>
+                           <i class="icon material-icons md-only">search</i>
+                       </a>
+                     </div>
+
+                     <form data-search-container=".components-list" data-search-in="a" class="searchbar searchbar-expandable searchbar-components searchbar-init">
+                        <div class="searchbar-inner">
+                           <div class="searchbar-input-wrap">
+                              <input type="search" placeholder="Search Family Planning"/>
+                              <i class="searchbar-icon"></i>
+                              <span class="input-clear-button"></span>
+                           </div>
+                           <span class="searchbar-disable-button">Cancel</span>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+
+               <!-- START NG BODY SA HOME PAGE -->
+               <div class="page-content">
+                  <div class="list searchbar-hide-on-search">            
+                  </div>
+                  <div class="block-title searchbar-found">Kategorya</div>
+                  <div class="list components-list searchbar-found">
+                     <ul> 
+                        <li>
+                           <a class="item-content item-link" href="/discussion-benefits/">
+                           <div class="item-media">
+                             <i class="icon material-icons md-only">fitness_center</i>
+                           </div>
+                           <div class="item-inner">
+                              <div class="item-title">Benefits of Family Planning</div>
+                           </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a class="item-content item-link" href="/discussion-fertilityawareness/">
+                           <div class="item-media">
+                              <i class="icon material-icons md-only">opacity</i>
+                           </div>
+                           <div class="item-inner">
+                              <div class="item-title">Fertility Awareness</div>
+                           </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a class="item-content item-link" href="/discussion-dynamics/">
+                           <div class="item-media">
+                              <i class="icon material-icons md-only">child_care</i>
+                           </div>
+                           <div class="item-inner">
+                              <div class="item-title">Dynamics of Human Fertility</div>
+                           </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a class="item-content item-link" href="/discussion-anatomy/">
+                           <div class="item-media">
+                              <i class="icon material-icons md-only">wc</i>
+                           </div>
+                           <div class="item-inner">
+                              <div class="item-title">Anatomy</div>
+                           </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a class="item-content item-link" href="/discussion-siklo/">
+                           <div class="item-media">
+                              <i class="icon material-icons md-only">invert_colors</i>
+                           </div>
+                           <div class="item-inner">
+                              <div class="item-title">Physiology</div>
+                           </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a class="item-content item-link" href="/contraceptive-modern/">
+                              <div class="item-media">
+                                 <i class="icon material-icons md-only">domain</i>
+                              </div>
+                              <div class="item-inner">
+                                <div class="item-title">Modern Method</div>
+                              </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a class="item-content item-link" href="/contraceptive-natural/">
+                              <div class="item-media">
+                                 <i class="icon material-icons md-only">nature_people</i>
+                              </div>
+                              <div class="item-inner">
+                                 <div class="item-title">Natural Method</div>
+                              </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a class="item-content item-link" href="/contraceptive-long/">
+                              <div class="item-media">
+                                 <i class="icon material-icons md-only">content_cut</i>
+                              </div>
+                              <div class="item-inner">
+                                <div class="item-title">Long-Acting and Permanent</div>
+                              </div>
+                           </a>
+                        </li>
+                        <li>
+                           <a class="item-content item-link" href="/period-tracker/">
+                              <div class="item-media">
+                                 <i class="icon material-icons md-only">today</i>
+                              </div>
+                              <div class="item-inner">
+                                <div class="item-title">Period Tracker</div>
+                              </div>
+                           </a>
+                        </li>
+
+                     </ul>
+                  </div>
+                  <div class="list simple-list searchbar-not-found"> 
+                     <ul> 
+                        <li>Walang nahanap na resulta
+                           <div class="item-media">
+                              <i class="icon material-icons md-only">delete_sweep</i>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+
+      <script src="js/framework7.js"></script> 
+      <script src="js/routes.js"></script>
+      <script src="js/index.js"></script>        
+   </body>
+</html>
