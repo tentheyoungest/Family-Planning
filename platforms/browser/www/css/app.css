@@ -49,24 +49,31 @@ select {
 }
 
 
-table#userpoints, tr, td {
-	margin-bottom: 10px;
-    padding: 20px 15px;
-    border: 1px solid #ddd;
+table#userpoints, td, th {
+	border: 1px solid #ddd;
     border-collapse: collapse;
-    /*border-radius: 5px;*/
-  /*  padding-left: 0px;*/
-	/*display: table-cell;*/
-	vertical-align: inherit;
+    padding: 1px;
 	text-align: center;
-	padding: 1px;
-	font-color: gray;
 	font-size: 15px;
 	font-family: calibri;
 	font-weight: bold;
+	/*margin-bottom: 10px;
+    padding: 20px 15px;
+    border: 1px solid #ddd;
+    
+	vertical-align: inherit;
+	
+	
+	*/
 	
 }
-/*
-body.node-type-page #content .block-bmed, body.node-type-article #content .block-bmed {
-    
-}*/
+ 
+table#userpoints tr:nth-child(even){background-color: #ceb9dcb8;}
+table#userpoints tr:hover {background-color: #ddd;}
+table#userpoints th {
+    padding-top: 20px 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}
